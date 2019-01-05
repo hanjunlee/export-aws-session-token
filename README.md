@@ -19,23 +19,6 @@ AWS  is supporting cli MFA by session token. The command is `aws sts get-session
 
 Check the [releases](./releases) for the latest version.
 
-### Linux
-
-Here's how it could look for 64 bits Linux, if you wanted tffilter available globally inside /usr/local/bin:
-
-```
-curl -SsL https://github.com/hanjunlee/awsprofile/releases/download/v0.1/awsprofile.v0.1_linux_amd64 \
-  | sudo tee /usr/local/bin/export-aws-session-token > /dev/null && sudo chmod 755 /usr/local/bin/export-aws-session-token
-```
-
-### OSX
-
-Here's how it could look for 64 bits Darwin, if you wanted tffilter available globally inside /usr/local/bin:
-
-```
-curl -SsL https://github.com/hanjunlee/awsprofile/releases/download/v0.1/awsprofile.v0.1_darwin_amd64 \
-  | sudo tee /usr/local/bin/export-aws-session-token > /dev/null && sudo chmod 755 /usr/local/bin/export-aws-session-token
-```
 
 ## Version
  
